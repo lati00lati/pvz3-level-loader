@@ -1,0 +1,14 @@
+name: Feature Request
+description: Suggest a new feature for the level loader.
+title: "[Feature] "
+labels:
+  - feature request
+body:
+  - type: textarea
+    id: requested-feature
+    attributes:
+      label: What feature would you like added?
+      description: Describe the feature you want added to the loader.
+      placeholder: "I would like the loader to..."
+    validations:
+      required: true
